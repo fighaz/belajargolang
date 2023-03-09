@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/bootstrap.min.css">
-    <title>{{ .logo }}</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <title>Blog</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">{{ .logo }}</a>
+        <a class="navbar-brand" href="#">Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,8 +33,8 @@
       <div class="card mb-3 col-md-9">
         <img src="static/img/1.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{ .title }}</h5>
-          <p class="card-text">{{ .text }}</p>
+          <h5 class="card-title">{{ .Title }}</h5>
+          <p class="card-text">{{ .Content }}</p>
 
         </div>
       </div>
